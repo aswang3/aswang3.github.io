@@ -7,7 +7,7 @@ body{
 h1{
 	color: white;
 	background-color: rgba(0,0,0,0.5);
-	font-family: "moon flower", georgia;
+	font-family: "moon flower", "palatino linotype", georgia;
 	font-size: 72pt;
 	margin: 20px;
 	padding: 40px;
@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-	font-family: "moon flower", georgia;
+	font-family: "moon flower", "palatino linotype", georgia;
 	font-size: 54pt;
 	margin: 20px;
 	padding: 40px;
@@ -25,7 +25,7 @@ h2{
 h3{
 	color: white;
 	background-color: rgba(0,0,0,0.5);
-	font-family: "moon flower", georgia;
+	font-family: "moon flower", "palatino linotype", georgia;
 	font-size: 36pt;
 	margin: 20px;
 	padding: 40px;
@@ -33,7 +33,7 @@ h3{
 }
 
 h4{
-	font-family: "moon flower", georgia;
+	font-family: "moon flower", "palatino linotype", georgia;
 	font-size: 24pt;
 	margin: 20px;
  	padding: 40px;
@@ -43,7 +43,7 @@ h4{
 h5{
 	color: white;
 	background-color: rgba(0,0,0,0.5);
-	font-family: "moon flower", georgia;
+	font-family: "moon flower", "palatino linotype", georgia;
 	font-size: 16pt;
 	margin: 20px;
 	padding: 40px;
@@ -51,7 +51,7 @@ h5{
 }
 
 h6{
-	font-family: "moon flower", georgia;
+	font-family: "moon flower", "palatino linotype", georgia;
 	font-size: 5pt;
 	margin: 20px;
 	padding: 40px;
