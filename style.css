@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "moon flower";
+    src: url(moon flower.ttf);
+}
 body{
     background-image:url(sky2.jpg);
     background-position: center;
@@ -15,7 +19,7 @@ h1{
 }
 
 h2{
-	font-family: "moon flower", "palatino linotype", georgia;
+	font-family: "nothing you could do", "amatic sc", "moon flower", "palatino linotype", georgia;
 	font-size: 54pt;
 	margin: 20px;
 	padding: 40px;
@@ -25,7 +29,7 @@ h2{
 h3{
 	color: white;
 	background-color: rgba(0,0,0,0.5);
-	font-family: "moon flower", "palatino linotype", georgia;
+	font-family: "amatic sc", "moon flower", "palatino linotype", georgia;
 	font-size: 36pt;
 	margin: 20px;
 	padding: 40px;
@@ -51,7 +55,7 @@ h5{
 }
 
 h6{
-	font-family: "moon flower", "palatino linotype", georgia;
+	font-family: "amatic sc", "moon flower", "palatino linotype", georgia;
 	font-size: 5pt;
 	margin: 20px;
 	padding: 40px;
