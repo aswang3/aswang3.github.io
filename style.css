@@ -3,6 +3,7 @@
     src: url(moonflower.ttf);
 }
 body{
+    background-color: black;
     background-image:url(sky2.jpg);
     background-position: center;
     background-repeat: repeat-y;
