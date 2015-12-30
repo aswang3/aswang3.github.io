@@ -1,6 +1,12 @@
+body{
+    background-image:url(sky.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
 	color: white;
-	background-color: black;
+	background-color: rgba(0,0,0,0.5);
 	font-family: "moon flower";
 	font-size: 72pt;
 	margin: 20px;
@@ -18,7 +24,7 @@ h2{
 
 h3{
 	color: white;
-	background-color: black;
+	background-color: rgba(0,0,0,0.5);
 	font-family: "moon flower";
 	font-size: 36pt;
 	margin: 20px;
@@ -36,7 +42,7 @@ h4{
 
 h5{
 	color: white;
-	background-color: black;
+	background-color: rgba(0,0,0,0.5);
 	font-family: "moon flower";
 	font-size: 16pt;
 	margin: 20px;
