@@ -5,6 +5,7 @@ h1{
 	font-size: 72pt;
 	margin: 20px;
 	padding: 40px;
+	text-align: center;
 }
 
 h2{
@@ -12,6 +13,7 @@ h2{
 	font-size: 54pt;
 	margin: 20px;
 	padding: 40px;
+	text-align: center;
 }
 
 h3{
@@ -21,6 +23,7 @@ h3{
 	font-size: 36pt;
 	margin: 20px;
 	padding: 40px;
+	text-align: center;
 }
 
 h4{
@@ -28,6 +31,7 @@ h4{
 	font-size: 24pt;
 	margin: 20px;
  	padding: 40px;
+	text-align: center;
 }
 
 h5{
@@ -37,6 +41,7 @@ h5{
 	font-size: 16pt;
 	margin: 20px;
 	padding: 40px;
+	text-align: center;
 }
 
 h6{
@@ -44,4 +49,5 @@ h6{
 	font-size: 5pt;
 	margin: 20px;
 	padding: 40px;
+	text-align: center;
 }
