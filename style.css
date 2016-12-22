@@ -70,5 +70,7 @@ h6{
 
 }
 #menu a:link{
+	color: white;
+	font-family:"Amatic SC";
 	text-decoration: none;
 }
