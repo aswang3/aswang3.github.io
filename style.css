@@ -75,7 +75,13 @@ h6{
 	text-decoration: none;
 }
 #menu a:visited{
-	color: pink;
+	color: white;
 	font-family:"Amatic SC";
 	text-decoration: none;
+}
+
+#aboutme p{
+	font-family: "Amatic SC";
+	color: white;
+	font-size: 24pt;
 }
