@@ -1,239 +1,83 @@
-@font-face {
-    font-family: "moon flower";
-    src: url(moonflower.ttf);
-}
-body{
-
-    background-color: black;
-    background-image:url(sky2.jpg);
+body {
+    background-image: url(beach.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-h1{
 
-	color: white;
-	background-color: rgba(0,0,0,0.5);
-	font-family: "Amatic SC" , "palatino linotype", georgia;
-	font-size: 72pt;
-	margin: 20px;
-	padding: 40px;
-	text-align: center;
-}
-
-p{
-    color: white;
-    font-family: "Amatic SC";
-    font-size: 44pt;
+.quote {
     text-align: center;
-    margin: 40px;
-    padding: 70px;
-}
-h2{
-	font-family: "moon flower", "nothing you could do", "amatic sc", "moon flower", "palatino linotype", georgia;
-	font-size: 54pt;
-	margin: 20px;
-	padding: 40px;
-	text-align: center;
-}
-
-h3{
-	color: white;
-	font-family: "moon flower", "nothing you could do", "palatino linotype", georgia;
-	font-size: 36pt;
-	margin: 20px;
-	padding: 40px;
-	text-align: center;
-}
-
-h4{
-	font-family: "moon flower", "nothing you could do", "palatino linotype", georgia;
-	font-size: 24pt;
-	margin: 20px;
- 	padding: 40px;
-	text-align: center;
-}
-
-h5{
-	color: white;
-	background-color: rgba(0,0,0,0.5);
-	font-family: "moon flower", "nothing you could do", "palatino linotype", georgia;
-	font-size: 16pt;
-	margin: 20px;
-	padding: 40px;
-	text-align: center;
-}
-
-h6{
-	font-family:  "moon flower", "nothing you could do", "palatino linotype", georgia;
-	font-size: 5pt;
-	margin: 20px;
-	padding: 40px;
-	text-align: center;
-}
-
-#menu{
-    position: absolute;
-    top: 100%;
-    text-align: center;
-	color: white;
-    width: 94%;
-    margin: 20px;
-    padding-left: 40px;
-	font-family:"Amatic SC", "palatino linotype", georgia;
-	font-size: 36pt;
-    background-color: rgba(0,0,0,0.5);
-
-}
-#menu a:link{
-	color: white;
-	font-family:"Amatic SC";
-	
-}
-#menu a:visited{
-	color: white;
-	font-family:"Amatic SC";
-	text-decoration: none;
-}
-
-#aboutme{
-    position: absolute;
-    top: 110%;
-    margin: 20px;
-    padding: 40px;
-    background-color: rgba(0,0,0,0.5);
-}
-#aboutme p{
-    position: relative;
-	font-family: "Roboto Condensed", sans-serif;
-	color: white;
-	font-size: 24pt;
-
-}
-
-#aboutme h2{
     font-family: "Amatic SC";
     color: white;
-    text-align: center;
+    font-size: 48pt;
+    background-color: rgba(0,0,0,0.5);  
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    padding: 10%;
 }
 
-#projects{
-    position: absolute;
-    top: 220%;
-    margin: 20px;
-    padding: 40px;
+.menu {
     background-color: rgba(0,0,0,0.5);
+    font-family: "Amatic SC";
+    font-size: 32pt;
+    text-align: center;
+    margin: 2%;
+    color: white;
+    padding: .5%;
+    padding-bottom: .7%;
 }
 
-#projects h2{
-    font-family: "Amatic SC";
+.menu a:link{
     color:white;
-    text-align: center;
 }
 
-#projects h3{
-    font-family: "Amatic SC";
-    color: white;
-    text-align: left;
-    font-size: 34pt;
+.menu a:visited{
+    color:aliceblue;
 }
 
-#projects h4{
-    font-family: "Amatic SC";
-    color: white;
-    text-align: right;
-    font-size: 34pt;
-}
-
-#projects a:link{
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24pt;
-}
-
-#projects a:visited{
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24pt;
-}
-
-#projects p{
-    font-family: "Roboto Condensed", sans-serif;
-    position:relative;
-    font-size: 24pt;
-}
-
-#skills{
-    position: absolute;
-    top: 320%;
-    margin: 20px;
-    padding: 40px;
+.section {
     background-color: rgba(0,0,0,0.5);
-    text-align: center;
+    margin: 2%;
 }
 
-#skills h2{
+.section h1 {
+    font-size: 48pt;
     font-family: "Amatic SC";
     color: white;
     text-align: center;
-    margin: 5px;
-    padding: 10px;
+    margin-bottom: 1%;
+    padding-top: 2%;
 }
 
-#skills h3{
-    font-family: "Amatic SC";
-    color: white;
-    text-align: center;
-    margin: 5px;
-    padding: 10px;
-}
-
-#skills p{
+.section p {
     font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: .5%;
     font-size: 24pt;
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
 }
 
-#contact{
-    position: absolute;
-    top: 420%;
-    margin: 20px;
-    padding: 40px;
-    text-align: center;
-    background-color: rgba(0,0,0,0.5);
-}
-
-#contact h2{
+.section h2 {
+    padding: 3%;
+    color: white;
+    padding-top: .5%;
+    padding-bottom: 1%;
+    margin: 1%;
     font-family: "Amatic SC";
+    text-align: center;
+    font-size: 30pt;
+}
+
+#projects a:link {
     color:white;
-    text-align: center;
-}
-
-#contact a:link{
-    color: white;
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     text-decoration: none;
-    font-size: 24pt;
-}
-
-#contact a:visited{
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24pt;
-}
-
-#contact p{
-    font-family: "Roboto Condensed", sans-serif;
-    position:relative;
     font-size: 24pt;
 }
